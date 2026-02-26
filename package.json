@@ -1,0 +1,21 @@
+{
+  "name": "supamock",
+  "version": "1.0.0",
+  "description": "Point any Supabase project, get instant mock API endpoints with realistic data. Respects types, foreign keys, and constraints. Zero config.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/501336North/supamock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/501336North/supamock/issues"
+  },
+  "homepage": "https://github.com/501336North/supamock#readme"
+}
