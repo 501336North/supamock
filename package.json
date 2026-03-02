@@ -1,0 +1,50 @@
+{
+  "name": "supamock",
+  "version": "0.1.0",
+  "description": "Point any Postgres database, get instant mock API endpoints with realistic data. Respects types, foreign keys, and constraints. Zero config.",
+  "main": "dist/index.js",
+  "bin": {
+    "supamock": "dist/bin/supamock.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "test": "vitest run",
+    "test:unit": "vitest run test/unit",
+    "test:integration": "vitest run test/integration",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/501336North/supamock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/501336North/supamock/issues"
+  },
+  "homepage": "https://github.com/501336North/supamock#readme",
+  "dependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "commander": "^12.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.11.0",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^4.0.18"
+  }
+}
