@@ -1,6 +1,6 @@
 {
   "name": "supamock",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Point any Postgres database, get instant mock API endpoints with realistic data. Respects types, foreign keys, and constraints. Zero config.",
   "main": "dist/index.js",
   "bin": {
